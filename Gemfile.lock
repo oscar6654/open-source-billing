@@ -629,7 +629,7 @@ DEPENDENCIES
   rake (< 11.0)
   responders
   rest-client (= 1.8.0)
-  rmagick (= 2.15.4)
+  rmagick
   rolify (= 5.1.0)
   roxml
   rspec-its (= 1.2.0)
