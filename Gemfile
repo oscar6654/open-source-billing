@@ -65,6 +65,7 @@ gem 'faker', '~> 1.4.3'
 gem 'activerecord-session_store'
 gem 'stripe', '1.56.0'
 gem 'figaro', '1.1.1'
+gem 'delayed_job_active_record'
 
 group :test do
   gem 'shoulda-matchers', '2.8.0'
