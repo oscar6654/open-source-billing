@@ -418,7 +418,7 @@ module ApplicationHelper
   def pick_trackable_color
     {Invoice: 'text-blue', Client: 'text-green', Estimate: 'text-orange', Payment: 'text-red'}
   end
-
+require 'active_support/core_ext/hash'
   def user_activities_listing
     PublicActivity::Activity.where.not(owner_id: current_user.id, key: 'client.update').order('created_at desc').page(1).per(10) if current_user.present?
   end
