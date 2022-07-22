@@ -139,11 +139,6 @@ GEM
     crass (1.0.6)
     daemons (1.2.3)
     debug_inspector (1.1.0)
-    delayed_job (4.1.10)
-      activesupport (>= 3.0, < 8.0)
-    delayed_job_active_record (4.1.7)
-      activerecord (>= 3.0, < 8.0)
-      delayed_job (>= 3.0, < 5)
     devise (4.8.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -583,7 +578,6 @@ DEPENDENCIES
   coffee-rails (= 5.0.0)
   copyright-header (= 1.0.15)
   daemons (= 1.2.3)
-  delayed_job_active_record
   devise
   devise-encryptable (= 0.2.0)
   elasticsearch-model (= 5.0.0)
