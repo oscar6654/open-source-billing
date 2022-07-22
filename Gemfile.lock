@@ -423,7 +423,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
-    rmagick (2.16.0)
+    rmagick (2.15.4)
     rolify (5.1.0)
     roxml (4.1.1)
       activesupport (>= 4.0)
@@ -629,7 +629,7 @@ DEPENDENCIES
   rake (< 11.0)
   responders
   rest-client (= 1.8.0)
-  rmagick (= 2.16.0)
+  rmagick (= 2.15.4)
   rolify (= 5.1.0)
   roxml
   rspec-its (= 1.2.0)
