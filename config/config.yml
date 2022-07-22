@@ -37,13 +37,13 @@ production:
     business: YOUR_PAYPAL_BUSINESS
 
   smtp_setting:
-    address: smtp.gmail.com
+    address: smtp.office365.com
     port: 587
-    authentication: :plain
+    authentication: :login
     enable_starttls_auto: true
-    user_name: YOUR_EMAIL_HERE
-    password: YOUR_PASSWORD_HERE
-
+    user_name: <%= ENV["USERNAME_ENV_SECRET"] %>
+    password: <%= ENV["PASSWORD_ENV_SECRET"] %>
+    
   quickbooks:
     # QuickBooksApp account key and secret
     consume_key: YOUR_QUICKBOOKS_APP_CLIENT_ID
