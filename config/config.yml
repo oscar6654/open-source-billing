@@ -43,6 +43,8 @@ production:
     enable_starttls_auto: true
     user_name: <%= ENV["USERNAME_ENV_SECRET"] %>
     password: <%= ENV["PASSWORD_ENV_SECRET"] %>
+    enable_starttls_auto: true
+    domain: vcsi.com.ph
     
   quickbooks:
     # QuickBooksApp account key and secret
